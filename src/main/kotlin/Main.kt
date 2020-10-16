@@ -1,5 +1,5 @@
 fun main() {
-    println("Коммисия за перевод: ${typeCommission("Maestro",10000000,amount = 1000000)} коп.")
+    println("Коммисия за перевод: ${typeCommission("Maestro",10000000,1000000)} коп.")
 }
 
 fun typeCommission (cardType:String = "VKPay", prevAmount:Int=0, amount:Int):Double {

@@ -3,7 +3,6 @@ fun main() {
 }
 
 fun typeCommission(cardType: String, prevAmount: Int, amount: Int): Double {
-    //val commission = if (prevAmount >= 75000 * 100) amount * 0.6 / 100 + 2000 else 0.0
     val resultCommission = when (cardType) {
         "MasterCard" -> if (prevAmount >= 75000 * 100) amount * 0.6 / 100 + 2000 else 0.0
         "Maestro" -> if (prevAmount >= 75000 * 100) amount * 0.6 / 100 + 2000 else 0.0

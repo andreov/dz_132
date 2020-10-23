@@ -72,7 +72,7 @@ class MainKtTest {
             prevAmount = prevAmount,
             amount = amount
         )
-        assertEquals(6000.0, result, 0.0)
+        assertEquals(8000.0, result, 0.0)
     }
 
     @Test
